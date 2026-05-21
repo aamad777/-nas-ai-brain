@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+qdrant-client
+sentence-transformers
+groq
+requests
+assemblyai
+faster-whisper

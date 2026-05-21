@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Data / generated files
+qdrant_storage/
+transcripts/
+transcripts-groq/
+transcripts-multi/
+processed/
+uploads/
+text/
+
+# Docker/runtime
+*.tar
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

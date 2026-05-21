@@ -1,0 +1,13 @@
+services:
+  nas-ai-brain:
+    build: .
+    container_name: nas-ai-brain
+    restart: unless-stopped
+    ports:
+      - "8098:8098"
+    env_file:
+      - .env
+    volumes:
+      - /mnt/nas-brain:/mnt/nas-brain
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
