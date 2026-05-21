@@ -29,3 +29,15 @@ text/
 .DS_Store
 .vscode/
 .idea/
+
+# Local helper/test/old scripts
+app.py.bak
+app.py.old
+ask_elsharawy*.py
+extract_elsharawy_pdfs.sh
+index_elsharawy*.py
+ocr_elsharawy_pdfs.sh
+setup_env_keys.sh
+test_env_keys.py
+test_groq.py
+transcribe_*.py
